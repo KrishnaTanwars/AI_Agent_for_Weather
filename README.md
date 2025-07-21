@@ -1,32 +1,52 @@
-# AI Agent
+AI Agent for Weather Information 🌦️
+An intelligent AI-powered CLI assistant built using Node.js and OpenAI API. This project allows users to fetch real-time weather information for any city through natural language queries.
 
-This project is an AI-powered assistant that uses the OpenAI API to provide weather information based on user queries.
+🚀 Features
+💬 Interactive command-line interface (CLI) for user input
 
-## Features
+🌍 Retrieves weather data for various cities using natural language queries
 
-- Interactive command-line interface for user input.
-- Fetches weather details for various cities.
-- Utilizes AI to process user queries and provide responses.
+🧠 Leverages OpenAI API to understand and respond intelligently
 
-## Installation
+🛠️ Simple and clean architecture using Node.js
 
-1. Clone the repository:
-   git clone https://github.com/KrishnaTanwars/AI_Agent_for_Weather
-   cd AI-AGENT
-2. Install dependencies:
-   npm install
+🛠️ Installation
+Clone the repository:
 
-## Usage
+bash
+Copy
+Edit
+git clone https://github.com/KrishnaTanwars/AI_Agent_for_Weather.git
+cd AI_Agent_for_Weather
+Install dependencies:
 
-Run the application:
-   node index.js
+bash
+Copy
+Edit
+npm install
+▶️ Usage
+To start the assistant, run:
 
-You can then type queries such as "What is the weather in Patiala?" and receive responses based on the AI's processing.
+bash
+Copy
+Edit
+node index.js
+Then type a natural language query like:
 
-## API Key
+text
+Copy
+Edit
+What is the weather in Patiala?
+The AI will interpret your input and respond accordingly.
 
-Make sure to replace the placeholder API key in index.js with your actual OpenAI API key to enable functionality.
+🔑 API Key Configuration
+Replace the placeholder API key in index.js with your valid OpenAI API key to enable AI functionality:
 
-## License
+javascript
+Copy
+Edit
+const apiKey = "your_openai_api_key_here";
+⚠️ Keep your API key secure and do not expose it in public repositories.
 
+📄 License
 This project is licensed under the MIT License.
