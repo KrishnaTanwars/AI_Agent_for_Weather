@@ -1,52 +1,43 @@
-AI Agent for Weather Information 🌦️
-An intelligent AI-powered CLI assistant built using Node.js and OpenAI API. This project allows users to fetch real-time weather information for any city through natural language queries.
+# 🤖 AI Agent for Weather Information
 
-🚀 Features
-💬 Interactive command-line interface (CLI) for user input
+An intelligent AI-powered CLI assistant built using Node.js and OpenAI API. This tool fetches real-time weather data based on user queries in natural language.
 
-🌍 Retrieves weather data for various cities using natural language queries
+## 🚀 Features
 
-🧠 Leverages OpenAI API to understand and respond intelligently
+- 💬 Interactive Command-Line Interface (CLI)
+- 🌦️ Real-time weather data for any city
+- 🧠 AI-powered query processing with OpenAI API
+- 🔧 Simple Node.js implementation
 
-🛠️ Simple and clean architecture using Node.js
+## 🛠 Installation
 
-🛠️ Installation
-Clone the repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/KrishnaTanwars/AI_Agent_for_Weather.git
 cd AI_Agent_for_Weather
-Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 ▶️ Usage
-To start the assistant, run:
-
 bash
 Copy
 Edit
 node index.js
-Then type a natural language query like:
+Type queries like:
 
-text
-Copy
-Edit
 What is the weather in Patiala?
-The AI will interpret your input and respond accordingly.
 
-🔑 API Key Configuration
-Replace the placeholder API key in index.js with your valid OpenAI API key to enable AI functionality:
+Is it raining in Mumbai?
+
+How hot is it in Delhi today?
+
+🔑 API Key Setup
+Open index.js
+
+Replace the placeholder with your OpenAI API key:
 
 javascript
 Copy
 Edit
 const apiKey = "your_openai_api_key_here";
-⚠️ Keep your API key secure and do not expose it in public repositories.
+⚠️ Never share or expose your API key publicly.
 
 📄 License
 This project is licensed under the MIT License.
